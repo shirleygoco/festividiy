@@ -59,7 +59,7 @@
 } */
 
 .mainNavbar {
-  background-color: #f0b0f077;
+  background-color: rgba(153, 122, 153, 0.6);
 }
 
 
@@ -199,7 +199,7 @@ body {
 }
 
 #sidebar-wrapper {
-  background: #f0b0f077;
+  background:rgba(153, 122, 153, 0.4);
 }
 
 /* .sidebar-images {
