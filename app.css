@@ -59,8 +59,10 @@
 } */
 
 .mainNavbar {
-  background-color: rgba(199, 155, 199, 0.6);
+  background-color: rgba(241, 150, 241, 0.6);
+  /* rgba(199, 155, 199, 0.6); */
 }
+
 
 
 .navbar.scrolled {
@@ -111,6 +113,43 @@ transition: background 1s;
     }
 }
 
+.slideUp {
+  width: 120px;
+  height: 40px;
+  /* color: #5878F3; */
+  /* background: url('images/flower.png'); */
+  padding: 0 14px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s ease-out;
+  overflow: hidden;
+}
+
+.slideUp::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  /* background-color: #5878F3; */
+  background: url('images/flower-side2.png' ) center right / contain no-repeat;
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+.slideUp:hover {
+  color: white;
+  /* background: url('images/flower.png'); */
+}
+
+.slideUp:hover::after {
+  transform: translateY(0);
+  transition: transform 0.2s ease-in;
+}
 
 
 
@@ -164,7 +203,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 #logo {
-    max-width: 100px;
+    max-width: 70px;
 }
 
 #festividiylogo {
