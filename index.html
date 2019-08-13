@@ -15,75 +15,73 @@
     <title>Shirley Goco</title> 
   </head>
   <body class="d-flex flex-column indexBody">
-      <div class="d-none d-md-flex toggled" id="wrapper">
+      <div class="d-flex toggled" id="wrapper">
           <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-          <div class="sidebar-heading"> Products </div>
-          <div class="sidebar-images">
-              <div class="card productsCard mb-2">
-                  <img src="images/products/flowers.jpg" class="card-img card-img-top d-block" alt="flowers">
-                  <div class="carousel-caption">
-                    <h5 class="card-title productTitle">Flowers</h5>
+          <div id="sidebar-wrapper" class="d-none d-md-block">
+              <div class="sidebar-heading"> Products </div>
+              <div class="sidebar-images">
+                      <div class="card imageCard sidebarCard mb-2">
+                          <img src="images/products/flowers.jpg" class="card-img card-img-top d-block" alt="flowers">
+                          <div class="carousel-caption">
+                              <h5 class="card-title productTitle">Flowers</h5>
+                          </div>
+                      </div>
+                      <div class="card imageCard sidebarCard mb-2">
+                          <img src="images/products/butterfly.jpg" class="card-img card-img-top d-block" alt="butterfly cape">
+                          <div class="carousel-caption">
+                              <h5 class="card-title productTitle">Butterfly cape</h5>
+                          </div>
+                      </div>
+                      <div class="card imageCard sidebarCard mb-2">
+                          <img src="images/products/bookmarks.jpg" class="card-img card-img-top d-block" alt="bookmarks">
+                          <div class="carousel-caption">
+                              <h5 class="card-title productTitle">Bookmarks</h5>
+                          </div>
+                      </div>
                   </div>
-              </div>
-              <div class="card productsCard mb-2">
-                  <img src="images/products/butterfly.jpg" class="card-img card-img-top d-block" alt="butterfly cape">
-                  <div class="carousel-caption">
-                    <h5 class="card-title productTitle">Butterfly cape</h5>
-                  </div>
-              </div>
-              <div class="card productsCard mb-2">
-                  <img src="images/products/bookmarks.jpg" class="card-img card-img-top d-block" alt="bookmarks">
-                  <div class="carousel-caption">
-                    <h5 class="card-title productTitle">Bookmarks</h5>
-                  </div>
-              </div>
           </div>
-        </div>
-         
-        </div>
-      <!-- /#sidebar-wrapper -->
+          <!-- /#sidebar-wrapper -->
+          
+          <!-- Page Content -->
+          <div id="page-content-wrapper" >
+              <nav class="navbar navbar-expand-md navbar-light mainNavbar fixed-top pb-1 ">
+                  <div class="navbar-collapse collapse w-100 order-1 order-md-0">
+                      <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                              <a class="navbar-nav pl-5" href="#" id="menu-toggle" >
+                                  <img src="images/click.png" alt="Felt home" class="rounded " id="logo"> 
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="mx-auto order-0">
+                      <a class="navbar-brand mx-auto" href="#"><img src="images/festividiy-bg.png" alt="Festividiy" class="rounded" id="festividiylogo"></a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                  </div>
+                  <div class="navbar-collapse collapse w-100 order-3" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item active">
+                              <a class="nav-link slideUp" href="index.html">Home </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link slideUp" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link slideUp" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link slideUp" href="#">Contact</a>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
       
-      <div id="page-content-wrapper">
-          <nav class="navbar navbar-expand-md navbar-light mainNavbar fixed-top pb-1 ">
-              <div class="navbar-collapse collapse w-100 order-1 order-md-0">
-                  <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active">
-                          <a class="navbar-nav pl-5" href="#" id="menu-toggle" >
-                              <img src="images/click.png" alt="Felt home" class="rounded " id="logo"> 
-                          </a>
-                      </li>
-                  </ul>
-              </div>
-              <div class="mx-auto order-0">
-                  <a class="navbar-brand mx-auto" href="#"><img src="images/festividiy-bg.png" alt="Festividiy" class="rounded" id="festividiylogo"></a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-              </div>
-              <div class="navbar-collapse collapse w-100 order-3" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                      <li class="nav-item active">
-                          <a class="nav-link slideUp" href="index.html">Home <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link slideUp" href="#">Gallery</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link slideUp" href="#">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link slideUp" href="#">Contact</a>
-                      </li>
-                  </ul>
-              </div>
-            </nav>
-     
-
-
-          <div class="container-fluid mainContainer pt-0"  id="page-content-wrapper">
+              <div class="container-fluid headerContainer">
               
-          </div>
+              </div>
+            </div>
 
     </div> 
     <!-- Optional JavaScript -->
