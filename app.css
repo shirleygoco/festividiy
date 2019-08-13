@@ -13,21 +13,30 @@
 
 /* extra large */
 @media only screen and (min-width: 1200px) {
-  /* .mainContainer::before {background-image: url("images/felt-1920.jpg");} */
   .indexBody::before {background-image: url("images/triangles-1430105.png");}
+  .galleryImage {  
+    height: 350px;
+    width: 350px;
+  }
 }
 
 /* large */
 @media only screen and (max-width: 1199px) {
   html {font-size: 14px;}
-  /* .mainContainer::before {background-image: url("images/felt-1280.jpg");} */
   .indexBody::before {background-image: url("images/triangles-1430105_1280.png");} 
+  .galleryImage {  
+    height: 400px;
+    width: 400px;
+  }
 }
 
 /* medium */
 @media only screen and (max-width: 991px) {
     html {font-size: 12px;}
-
+    .galleryImage {  
+      height: 300px;
+      width: 300px;
+    }
  }
 
 /* small */
@@ -37,7 +46,6 @@
 
 /* xsmall */
 @media only screen and (max-width: 460px) {
-  /* .mainContainer::before {background-image: url("images/felt-640.jpg");} */
   .indexBody::before {background-image: url("images/triangles-1430105_640.png");}
 }
 
@@ -261,9 +269,7 @@ body {
   min-height: 100vh;
 } */
 
-.productsCard {
-  width: 15rem;
-}
+
 /* #menu-toggle {
   background-color: deeppink;
 } */
@@ -280,24 +286,46 @@ body {
   #sidebar-wrapper {
     margin-left: 0;
   }
-
   #page-content-wrapper {
     min-width: 0;
     width: 100%;
   }
-
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
 }
 
-.productsCard {
+.sidebarCard {
+width: 15rem;
+}
+
+.imageCard {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+
 }
 
 /* On mouse-over, add a deeper shadow */
-.productsCard:hover {
+.imageCard:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
+.headerContainer
+{
+  padding-top: 10rem;
+}
+
+.galleryCard {
+  height: 290px;
+}
+
+.galleryImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+
